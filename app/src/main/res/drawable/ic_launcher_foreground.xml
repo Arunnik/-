@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield with Cyan Gradient -->
+    <path
+        android:pathData="M54,23 L77,32 C77,57 66,75 54,85 C42,75 31,57 31,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="31"
+                android:startY="23"
+                android:endX="77"
+                android:endY="85"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Dark Shield Cutout -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M54,28 L72,35 C72,55 63,70 54,78 C45,70 36,55 36,35 Z" />
+    <!-- Lock Shackle -->
+    <path
+        android:pathData="M49,52 V46 C49,43.2 51.2,41 54,41 C56.8,41 59,43.2 59,46 V52"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+    <!-- Lock Body with Emerald/Teal Gradient -->
+    <path
+        android:pathData="M45,52 H63 C64.6,52 66,53.4 66,55 V66 C66,67.6 64.6,69 63,69 H45 C43.4,69 42,67.6 42,66 V55 C42,53.4 43.4,52 45,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="52"
+                android:endX="66"
+                android:endY="69"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Keyhole -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M54,57 C52.9,57 52,57.9 52,59 C52,59.8 52.5,60.5 53.2,60.8 L52.8,64 H55.2 L54.8,60.8 C55.5,60.5 56,59.8 56,59 C56,57.9 55.1,57 54,57 Z" />
+</vector>
